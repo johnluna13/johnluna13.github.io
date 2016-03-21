@@ -1,181 +1,188 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" xmlns:lr="http://adobe.com/lrg/0.0"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" xmlns:lr="http://adobe.com/lrg/0.0"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" xmlns:lr="http://adobe.com/lrg/0.0"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" xmlns:lr="http://adobe.com/lrg/0.0"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-        <link rel="stylesheet" type="text/css" media="screen" title="Custom Settings" href="assets/css/custom.css" >
-        <script src="assets/js/libs/modernizr.custom.23122.js"></script>
-    </head>
-    <body class="has-header row-spacing-none" data-pagination-style="scroll" data-target-row-height="231">
-                        <header class="">
-            <div class="background"></div>
-            <div class="meta-left">
-                <p id="galleryTitle" class="title">Portfolio</p>
-                                <p id="galleryAuthor" class="author">by <a id="galleryAuthorURL" href="johnluna.me" target="_blank">John Luna</a></p>
-                                </p>
-            </div>
-            <div class="meta-right">
+<!doctype html>
+<head>
+    <title>John Luna | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500' rel='stylesheet' type='text/css'>
+  
+  <style>
+       
+       html { background-color: #FFF; 
+           
+       }
+       
+        body {
+          margin: 0;
+          text-align: center;
+          color: gray;
+          font-family: 'Alegreya Sans', sans-serif;
+            
+        }
+        
+        footer {
+          padding: 20px;
+       }
+        
+        h2 {
+           font: bold 36px 'Raleway', sans-serif;
+           margin: 0px;
+           color: white;
+        }
+        
+        h3 {
+            color: dimgray;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        #hero {
+           padding: 40px;
+           background-color: white;
+           font-family: 'Raleway', sans-serif;
+        }
+        #art-work, h2{
+          margin-top: 15px;
+          padding: 20px;
+          background-color: dimgray;
+          color: white;
+        }
+        #who-am-i {
+          margin-top: 15px;
+          padding: 20px;
+          background-color: dimgray;
+          color: white;
+        }
+        
+        #social-widget {
+          margin-top: 1px;
+          padding: 20px;
+          background-color: dimgray;
+          color: white;  
+          font-family: 'Raleway', sans-serif;
+        }
+        nav{
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          color: gray;
+          font-family: 'Alegreya Sans', sans-serif;
+        }
+        
+          #icons {
+          background-color: white;
+          width: 810px;
+          margin: 0 auto;
+          overflow: hidden;
+        }
+        
+        #icons a{
+          float: left;
+          margin:20px;
+        }
+        
+        #portfolio {
+            width: 230px;
+            height: 200px;
+            display: block;
+            background: url(http://i.imgur.com/DPMmIug.png?2) no-repeat;
+        }
+        
+        #portfolio:hover {
+            background: url(http://i.imgur.com/b5gwBMU.png?1) no-repeat;
+        }
+        
+        #online-store {
+            width: 230px;
+            height: 200px;
+            display: block;
+            background: url(http://i.imgur.com/5VpyWH7.png?2) no-repeat;
+        }
+        
+        #online-store:hover {
+            background: url(http://i.imgur.com/ooxYwsR.png?2) no-repeat;
+        }
+        
+        #show-some-love {
+            width: 230px;
+            height: 200px;
+            display: block;
+            background: url(http://i.imgur.com/WWdgw85.png?2) no-repeat;
+        }
+        
+        #show-some-love:hover {
+            background: url(http://i.imgur.com/rj2PkbO.png?2) no-repeat;
+        }
+          @media (max-width: 830px) {
+#icons{
+  width: 80%;
+}
+          }
+    </style>
 
-            </div>
-            <ul class="gallery-meta">
-                <li id="buttonFullscreen" title="Fullscreen Mode">
-                    <div class="icon">
-                        <svg version="1.1" id="svgIconFullscreen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 16" style="enable-background:new 0 0 18 16;" xml:space="preserve">
-                        <g>
-                            <path class="custom-colorable" d="M5.3871,9.95599C5.19136,9.76858,4.99176,9.85763,4.79376,10.0472l-2.86173,2.74138v-1.55466
-                                c0-0.25257-0.21387-0.45733-0.47767-0.45733H0.47767C0.21387,10.7766,0,10.98136,0,11.23393v3.37367v0.93511
-                                C0,15.79524,0.21387,16,0.47767,16h0.97668h3.5238c0.26377,0,0.47764-0.20476,0.47764-0.45729v-0.93511
-                                c0-0.25254-0.21387-0.45733-0.47764-0.45733H3.34554l2.86694-2.7451c0.198-0.18957,0.30914-0.44923,0.11342-0.63664L5.3871,9.95599
-                                z"/>
-                            <path class="custom-colorable" d="M17.52233,10.7766h-0.97672c-0.26377,0-0.47764,0.20476-0.47764,0.45733v1.55466l-2.86172-2.74138
-                                c-0.198-0.18957-0.39764-0.27862-0.59335-0.09121l-0.93879,0.81254c-0.19575,0.18741-0.08458,0.44707,0.11342,0.63664
-                                l2.8669,2.7451h-1.63258c-0.26377,0-0.47764,0.20479-0.47764,0.45733v0.93511c0,0.25254,0.21387,0.45729,0.47764,0.45729h3.52376
-                                h0.97672C17.7861,16,18,15.79524,18,15.54271v-0.93511v-3.37367C18,10.98136,17.7861,10.7766,17.52233,10.7766z"/>
-                            <path class="custom-colorable" d="M3.34554,1.84973h1.63262c0.26377,0,0.47764-0.20479,0.47764-0.45733V0.45733C5.45579,0.20476,5.24193,0,4.97815,0h-3.5238
-                                H0.47767C0.21387,0,0,0.20476,0,0.45733v0.93508v3.3737C0,5.01864,0.21387,5.2234,0.47767,5.2234h0.97668
-                                c0.26381,0,0.47767-0.20476,0.47767-0.45729V3.21142L4.79376,5.9528c0.198,0.18957,0.3976,0.27862,0.59335,0.09121l0.93879-0.81254
-                                C6.52161,5.04409,6.41048,4.7844,6.21247,4.59483L3.34554,1.84973z"/>
-                            <path class="custom-colorable" d="M17.52233,0h-0.97672h-3.52376c-0.26377,0-0.47764,0.20476-0.47764,0.45733v0.93508
-                                c0,0.25254,0.21387,0.45733,0.47764,0.45733h1.63258l-2.8669,2.7451c-0.19801,0.18957-0.30917,0.44926-0.11342,0.63663
-                                l0.93879,0.81254c0.19571,0.18741,0.39535,0.09836,0.59335-0.09121l2.86172-2.74138V4.7661
-                                c0,0.25254,0.21387,0.45729,0.47764,0.45729h0.97672C17.7861,5.2234,18,5.01864,18,4.7661v-3.3737V0.45733
-                                C18,0.20476,17.7861,0,17.52233,0z"/>
-                        </g>
-                        </svg>
-                    </div>
-                </li>
-            </ul>
-        </header>
-                <div id="thumbnailContainer">
-            <div class="thumbnails"></div>
-        </div>
-        <div id="loupeContainer" class="show-corners">
-            <div class="background"></div>
-            <div class="image-container"></div>    
-            <div class="side-navigation">
-                <div class="hotspot" id="hotspotPrevLoupe">
-                    <div class="button" id="buttonPrevSideLoupe">
-                        <svg version="1.1" baseProfile="basic" id="svgIconPrevSideLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" xml:space="preserve"><path class="icon custom-colorable" fill="#231F20" d="M0,0l0,50h50V0L0,0z M18.491,25.05l9.707-9.264c0.418-0.399,1.092-0.403,1.506-0.008l1.498,1.43c0.413,0.395,0.41,1.039-0.009,1.438l-6.765,6.456l6.613,6.31c0.41,0.392,0.414,1.024,0.008,1.412l-1.471,1.404c-0.406,0.387-1.068,0.384-1.479-0.008l-6.612-6.311L18.491,25.05z"/></svg>
-                    </div>
-                </div>
-                <div class="hotspot" id="hotspotNextLoupe">
-                    <div class="button" id="buttonNextSideLoupe">
-                        <svg version="1.1" baseProfile="basic" id="svgIconNextSideLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" xml:space="preserve">
-                            <path class="icon custom-colorable" fill="#231F20" d="M0,0v50h50V0H0z M28.513,27.909l-6.612,6.311c-0.411,0.392-1.073,0.395-1.479,0.008l-1.471-1.404 c-0.406-0.388-0.402-1.02,0.008-1.412l6.613-6.31l-6.765-6.456c-0.419-0.399-0.422-1.043-0.009-1.438l1.498-1.43 c0.414-0.395,1.088-0.391,1.506,0.008l9.707,9.264L28.513,27.909z"/>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="lateral-nav-container">
-                <ul class="lateral-nav">
-                    <li id="buttonPrev">
-                        <svg version="1.1" id="svgIconPrevLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
-                            <style type="text/css">
-                                .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#231F20;}
-                            </style>
-                            <path class="icon custom-colorable" d="M25.20105,14.76864l-8.2004,7.773l2.5314,2.3992l5.5858,5.2952c0.3469,0.3289,0.9064,0.3318,1.2497,0.0065
-                                l1.2431-1.1783c0.3429-0.3252,0.3398-0.8555-0.0071-1.1846l-5.5864-5.2948l5.7149-5.4171c0.3535-0.3349,0.3568-0.875,0.0074-1.2063
-                                l-1.2657-1.1995C26.12435,14.43064,25.55435,14.43354,25.20105,14.76864z"/>
-                        </svg>
-                    </li>
-                    <li class="count"><span id="countCurrent"></span> of <span id="countTotal"></span></li>
-                    <li id="buttonNext">
-                        <svg version="1.1" id="svgIconNextLoupe" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
-                            <style type="text/css">
-                                .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#231F20;}
-                            </style>
-                            <path class="icon custom-colorable" d="M19.79895,14.76864l8.2004,7.773l-2.5314,2.3992l-5.5858,5.2952c-0.3469,0.3289-0.9064,0.3318-1.2497,0.0065
-                                l-1.2431-1.1783c-0.3429-0.3252-0.3398-0.8555,0.0071-1.1846l5.5864-5.2948l-5.7149-5.4171
-                                c-0.3535-0.3349-0.3568-0.875-0.0074-1.2063l1.2657-1.1995C18.87565,14.43064,19.44565,14.43354,19.79895,14.76864z"/>
-                        </svg>
-                    </li>
-                </ul>
-            </div>
-            <div class="info-container">
-                <div id="loupeMeta"></div>
-            </div>
-            <div id="loupeCloseButton">
-                <svg version="1.1" id="svgIconLoupeClose" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                     viewBox="0 0 45 45" style="enable-background:new 0 0 45 45;" xml:space="preserve">
-                    <path class="shape-x custom-colorable" d="M14.77881,17.30074l5.212,5.2222l-5.0831,5.0924c-0.3476,0.3484-0.5746,0.7624-0.2308,1.1067l1.5682,1.4763
-                        c0.3436,0.3443,0.8045,0.2596,1.1521-0.0886l5.0825-5.093l5.2119,5.222c0.3536,0.3547,0.9244,0.3578,1.2741,0.0073l1.2677-1.27
-                        c0.3497-0.3507,0.3465-0.9224-0.0071-1.2768l-5.2119-5.2221l5.0828-5.0925c0.3475-0.3485,0.5429-0.8259,0.1994-1.1702
-                        l-1.6474-1.4921c-0.3438-0.3443-0.6936-0.1803-1.0411,0.1679l-5.0828,5.0929l-5.212-5.222
-                        c-0.3537-0.3546-0.9241-0.3577-1.2742-0.007l-1.2672,1.2698C14.42171,16.37464,14.42491,16.94624,14.77881,17.30074z"/>
-                </svg>
-            </div>
-        </div>
-        <script type="text/javascript">
-            var LR = LR || {};
-            LR.images = [                                                                                        {"id": "4123", "largeWidth": "776", "largeHeight": "1200", "exportFilename": "African_Elephant_Shirt", "title": "", "caption" : ""},
-                         {"id": "4138", "largeWidth": "848", "largeHeight": "1200", "exportFilename": "African_Elephant", "title": "African Elephant", "caption" : ""},
-                         {"id": "4153", "largeWidth": "848", "largeHeight": "1200", "exportFilename": "African_Elephant2", "title": "African Elephant", "caption" : ""},
-                         {"id": "4168", "largeWidth": "1017", "largeHeight": "1200", "exportFilename": "IMG_20160226_092935", "title": "", "caption" : ""},
-                         {"id": "4183", "largeWidth": "1031", "largeHeight": "1200", "exportFilename": "Nefertiti", "title": "Nefertiti", "caption" : ""},
-                         {"id": "4198", "largeWidth": "758", "largeHeight": "1200", "exportFilename": "veiled_virgin", "title": "", "caption" : ""},
-                         {"id": "4215", "largeWidth": "765", "largeHeight": "1200", "exportFilename": "PicsArt_03-07-03.52.38", "title": "", "caption" : ""},
-                         {"id": "4231", "largeWidth": "1200", "largeHeight": "1186", "exportFilename": "20160310_212915-1", "title": "", "caption" : ""},
-                         {"id": "4247", "largeWidth": "937", "largeHeight": "1200", "exportFilename": "Basquiat", "title": "", "caption" : ""},
-                         {"id": "4262", "largeWidth": "1008", "largeHeight": "1200", "exportFilename": "20160310_213134-1", "title": "", "caption" : ""},
-                         {"id": "4278", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_212730", "title": "", "caption" : ""},
-                         {"id": "4294", "largeWidth": "967", "largeHeight": "1200", "exportFilename": "20160310_222530-2", "title": "", "caption" : ""},
-                         {"id": "4310", "largeWidth": "1024", "largeHeight": "1200", "exportFilename": "20160310_222543-1", "title": "", "caption" : ""},
-                         {"id": "4326", "largeWidth": "831", "largeHeight": "1200", "exportFilename": "20160310_220007-1", "title": "", "caption" : ""},
-                         {"id": "4342", "largeWidth": "924", "largeHeight": "1200", "exportFilename": "20160310_220313-1", "title": "", "caption" : ""},
-                         {"id": "4358", "largeWidth": "941", "largeHeight": "1200", "exportFilename": "20160310_220502-1", "title": "", "caption" : ""},
-                         {"id": "4374", "largeWidth": "1001", "largeHeight": "1200", "exportFilename": "20160310_220532-1", "title": "", "caption" : ""},
-                         {"id": "4390", "largeWidth": "1111", "largeHeight": "1200", "exportFilename": "20160310_220631-1", "title": "", "caption" : ""},
-                         {"id": "4405", "largeWidth": "629", "largeHeight": "1200", "exportFilename": "20160310_211951-1", "title": "", "caption" : ""},
-                         {"id": "4421", "largeWidth": "855", "largeHeight": "1200", "exportFilename": "20160310_211845-1", "title": "", "caption" : ""},
-                         {"id": "4436", "largeWidth": "1200", "largeHeight": "558", "exportFilename": "20160310_220901-1-1", "title": "", "caption" : ""},
-                         {"id": "4451", "largeWidth": "1200", "largeHeight": "539", "exportFilename": "20160310_220949-1-1", "title": "", "caption" : ""},
-                         {"id": "4466", "largeWidth": "1200", "largeHeight": "856", "exportFilename": "nusha", "title": "", "caption" : ""},
-                         {"id": "4484", "largeWidth": "896", "largeHeight": "1200", "exportFilename": "20160310_223328-1", "title": "", "caption" : ""},
-                         {"id": "4500", "largeWidth": "1200", "largeHeight": "936", "exportFilename": "20160310_223258-1", "title": "", "caption" : ""},
-                         {"id": "4515", "largeWidth": "1200", "largeHeight": "901", "exportFilename": "20160310_223248-1", "title": "", "caption" : ""},
-                         {"id": "4530", "largeWidth": "1200", "largeHeight": "956", "exportFilename": "20160310_223310-1", "title": "", "caption" : ""},
-                         {"id": "4546", "largeWidth": "1200", "largeHeight": "900", "exportFilename": "20160310_223239-1", "title": "", "caption" : ""},
-                         {"id": "4562", "largeWidth": "927", "largeHeight": "1200", "exportFilename": "Flatten-Fashion-collage", "title": "", "caption" : ""},
-                         {"id": "4577", "largeWidth": "928", "largeHeight": "1200", "exportFilename": "Final_Mag_Add", "title": "", "caption" : ""},
-                         {"id": "4592", "largeWidth": "1200", "largeHeight": "776", "exportFilename": "RETNA", "title": "", "caption" : ""},
-                         {"id": "4607", "largeWidth": "776", "largeHeight": "1200", "exportFilename": "gallery-poster", "title": "", "caption" : ""},
-                         {"id": "4622", "largeWidth": "796", "largeHeight": "1200", "exportFilename": "can", "title": "", "caption" : ""},
-                         {"id": "4637", "largeWidth": "796", "largeHeight": "1200", "exportFilename": "can_blue", "title": "", "caption" : ""},
-                         {"id": "4652", "largeWidth": "796", "largeHeight": "1200", "exportFilename": "can_red", "title": "", "caption" : ""},
-                         {"id": "4667", "largeWidth": "816", "largeHeight": "1200", "exportFilename": "Sundia_Flyer", "title": "", "caption" : ""},
-                         {"id": "4682", "largeWidth": "1200", "largeHeight": "526", "exportFilename": "DESIGNER_TIME", "title": "", "caption" : ""},
-                         {"id": "4697", "largeWidth": "1194", "largeHeight": "1200", "exportFilename": "Firema_Logo_1", "title": "", "caption" : ""},
-                         {"id": "4712", "largeWidth": "1200", "largeHeight": "500", "exportFilename": "fireman-derek-sign", "title": "", "caption" : ""},
-                         {"id": "4727", "largeWidth": "776", "largeHeight": "1200", "exportFilename": "Fireman-Derek_s-Logo", "title": "", "caption" : ""},
-                         {"id": "4742", "largeWidth": "1200", "largeHeight": "915", "exportFilename": "STICKER", "title": "", "caption" : ""},
-                         {"id": "4757", "largeWidth": "1200", "largeHeight": "806", "exportFilename": "Packaging_Sticker", "title": "", "caption" : ""},
-                         {"id": "4772", "largeWidth": "1200", "largeHeight": "1200", "exportFilename": "Packaging_Sticker2", "title": "", "caption" : ""},
-                         {"id": "4787", "largeWidth": "981", "largeHeight": "1200", "exportFilename": "2016-03-10_22.21.52", "title": "", "caption" : ""},
-                         {"id": "4803", "largeWidth": "1200", "largeHeight": "759", "exportFilename": "20160310_223916_copy", "title": "", "caption" : ""},
-                         {"id": "4818", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215159", "title": "", "caption" : ""},
-                         {"id": "4833", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215215", "title": "", "caption" : ""},
-                         {"id": "4848", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215223", "title": "", "caption" : ""},
-                         {"id": "4863", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215234", "title": "", "caption" : ""},
-                         {"id": "4878", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215316", "title": "", "caption" : ""},
-                         {"id": "4893", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215318", "title": "", "caption" : ""},
-                         {"id": "4908", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215359", "title": "", "caption" : ""},
-                         {"id": "4923", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_215410", "title": "", "caption" : ""},
-                         {"id": "4938", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_224120", "title": "", "caption" : ""},
-                         {"id": "4953", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_224140", "title": "", "caption" : ""},
-                         {"id": "4968", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_224155", "title": "", "caption" : ""},
-                         {"id": "4983", "largeWidth": "675", "largeHeight": "1200", "exportFilename": "20160310_224215", "title": "", "caption" : ""},
-                                    ]        </script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="assets/js/libs/jquery.velocity.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
-</html>
+
+
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a> | <a href="#who-am-i">About</a> | <a href="contact.html">Contact</a>
+  </nav>
+
+    <section id="hero">
+   <img src="http://i.imgur.com/M4e1gXx.jpg?1" height="450">
+    <h3>Art that plays with all of your senses</h3>
+    </section>  
+<section id="icons">
+    
+        <a href="portfolio.html" title="Online Portfolio" id="portfolio"></a>
+        
+        <a href="https://www.instagram.com/johnluna.13/" title="Show Some Love" id="show-some-love" target="_blank"></a>
+        
+        <a href="https://society6.com/juanhatake" title="Online Store" id="online-store" target="_blank"></a> 
+
+</section>
+<section id="who-am-i">
+  <h2>Artist bio/Statement</h2>
+<img width="300" src="http://i.imgur.com/RZv7S83.jpg">
+<h4>Portrait of John Luna by Emilia Rinaldini</h4>
+
+<br>
+ I am a Colombian born visual artist, who migrated to the US at the age of 8 and has resided in Miami for 13 years. Currently enrolled in the visual arts program at the Miami International University of Art and Design.
+ <p> My main focus as an artist is to create portraits that allow you (the viewer) to share something personal with the subject of the portrait. This feeling is acheived by creating a double exposure effect within the portrait.
+ The second image within the image often depicts something personal from the subjects life. The concept is to create a deeper conversation between the viewer and the portrait using images such as the subject's
+ hometown, an object from their infancy, or an old picture from a special moment, etc. 
+ <p> My frist contact with the concept was when I was working on a larger double expossure portrait for one of my classes. As I worked on adding the detail to the secondary image I couldn't help but feel a connection to my subject.
+ Making sure everything came out perfect became very important, not just for asthetics, but for the fact that the secondary image meant so much for my subject. 
+ Once the piece was finished I couldn't ignore just how personal it felt to the person in the portrait. I felt as if I knew them a better by looking and really examining the image.
+ After that portrait the "Getting to Know You" series was born and became Luna's main focus.
+ <p> Even thought his "Getting to Know You" series is mainly presented through large scale charcoal portraits, he plans to utilize other media such as watercolor, pastels, and digital illustration as future entrees to his series.
+ Much of his other works include a variety of media such as sculpture, graphic design, paints, and watercolor. He's idea is to utilze mixed media to created a cohesive body of work.
+</section>
+
+
+<section>
+    <section id="social-widget">
+        <h2>Social Media</h2>
+        <h4>Instagram</h4>
+<!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?u=am9obmx1bmEuMTN8aW58MTUwfDN8M3x8bm98MHxmYWRlSW58b25TdGFydHxub3x5ZXM=&ve=150316" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+</section>
+
+</body>
+
+
+
+<footer>
+
+<a target="_blank" href="https://www.linkedin.com/in/juan-estevez-69405a113">LinkedIn</a> - 
+<a target="_blank" href="https://twitter.com/JohnLuna_13">Twitter</a> -
+<a target="_blank" href="https://www.instagram.com/johnluna.13/">Instagram</a>
+<br>
+
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="JohnLuna"
+data-url="https://johnluna.me">Tweet</a>
+<script src="/js/twitter.js"></script>
+</footer>
+
+Created by Juan Estevez 2016 ©
